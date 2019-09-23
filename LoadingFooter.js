@@ -1,8 +1,5 @@
 /**
- * Author: Shi(bolan0000@icloud.com)
  * Date: 2019/1/18
- * Copyright (c) 2018, AoTang, Inc.
- *
  * Description:
  */
 
