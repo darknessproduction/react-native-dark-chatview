@@ -3,6 +3,8 @@ Inverted Chat for Android
 
 Installation:
 
+    npm install git+https://git@github.com/darknessproduction/react-native-dark-chatview.git
+
 ../android/settings.gradle
 
 
