@@ -48,7 +48,7 @@ Code Example
             {id: 3, user: 'Alexey', create_date: 1567810220, message: 'when an unknown printer took a galley of type and scrambled it to make a type specimen book.'},
             {id: 4, user: 'Alexey', create_date: 1567810220, message: 'It has survived not only five centuries,'},
             {id: 5, user: 'Alexey', create_date: 1567810220, message: 'but also the leap into electronic typesetting,'}
-          ]
+          ].reverse()
         }
       }
         addMsg = (addType) => {
@@ -59,7 +59,7 @@ Code Example
             let new_mgs = [{id: len, user: 'Artem', create_date: secs, message: 'New message created in '+secs}, ...nv];
 
             this.setState({
-              messages: new_mgs.reverse()
+              messages: new_mgs
             })
 
         }
