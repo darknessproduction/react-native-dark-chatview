@@ -20,6 +20,7 @@ Installation:
     implementation "com.facebook.react:react-native:+"  // From node_modules
     
     
+RN < ~0.60
 Make sure new DarkChatViewPackage() is in your MainApplication.java
 
     @Override
