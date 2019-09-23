@@ -80,12 +80,10 @@ public class DarkChatView extends ReactViewGroup implements View.OnTouchListener
         super.onDetachedFromWindow();
     }
 
-@Override
-  public void requestLayout() {
-    super.requestLayout();
-    final String TAG = "MyActivity";
-
-  }
+    @Override
+    public void requestLayout() {
+        super.requestLayout();
+    }
 
     @Override
     public void onLayoutChange(View view, int i, int i1, int i2, int i3, int i4, int i5, int i6, int i7) {
@@ -93,14 +91,13 @@ public class DarkChatView extends ReactViewGroup implements View.OnTouchListener
             size.width = i2 - i;
             size.height = i3 - i1;
         } else {
+            float difHeight = view.getHeight()-mHeight;
+            float restoreOffsetY = difHeight+contentOffset.y;
+            int tHeight = view.getHeight();
 
-            final String TAG = "MyActivity";
-
-            float difHeight = view.getHeight() - mHeight;
-
-            float restoreOffsetY = difHeight-contentOffset.y;
-
-            if(contentSize.height <= mHeight){
+            if(mHeight == 0){
+                setContentOffset(0, 0);
+            } else if(contentSize.height <= mHeight){
                 setContentOffset(0, restoreOffsetY);
             } else {
                 setContentOffset(0, 0);
@@ -109,8 +106,9 @@ public class DarkChatView extends ReactViewGroup implements View.OnTouchListener
 
             mHeight = view.getHeight();
 
-            setContentSize(i2 - i, i3-i1);
+            cancelAllAnimations();
 
+            setContentSize(i2 - i, i3-i1);
         }
     }
 
