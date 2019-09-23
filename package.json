@@ -1,0 +1,56 @@
+{
+  "_from": "react-native-dark-chatview",
+  "_id": "react-native-dark-chatview@2.0.22",
+  "_inBundle": false,
+  "_integrity": "sha512-y1O/AMq1++AHOjQjT5Nse8GAQ7tOWnWTR67kO06FBHbgyu6EeZ0Ow5KK2EjtmFN0EAY8zFZmXtZyr0Sdht/wJA==",
+  "_location": "/react-native-dark-chatview",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-dark-chatview",
+    "name": "react-native-dark-chatview",
+    "escapedName": "react-native-dark-chatview",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-dark-chatview/-/react-native-dark-chatview-2.0.22.tgz",
+  "_shasum": "6d8dbaf485b68a30c330d25e7e22f70ce7574c4c",
+  "_spec": "react-native-dark-chatview",
+  "_where": "E:\\app0",
+  "author": {
+    "name": "darknessproduction",
+    "email": "Darkness@Production"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Inverted Chat View for Android",
+  "keywords": [
+    "react-native",
+    "scroll",
+    "ScrollView",
+    "iOS style",
+    "react-native-scrollview",
+    "dark",
+    "rebound",
+    "bounces",
+    "cross-platform"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-dark-chatview",
+  "peerDependencies": {
+    "react": "^16.3.1",
+    "react-native": "^0.50.0",
+    "lottie-react-native": "latest"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.0.22"
+}
