@@ -12,7 +12,7 @@ Installation:
 
 ../android/app/build.gradle
 
-    compile project(':react-native-spring-scrollview')
+    compile project(':react-native-dark-chatview')
     implementation fileTree(dir: "libs", include: ["*.jar"])
     compile 'com.android.support:appcompat-v7:26.0.0'
     implementation "com.facebook.react:react-native:+"  // From node_modules
