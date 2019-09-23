@@ -7,7 +7,11 @@
  */
 
 import React from "react";
-import { Animated, Text } from "react-native";
+import { Animated, Text, YellowBox } from "react-native";
+
+YellowBox.ignoreWarnings([
+  'Warning: componentWillReceiveProps is deprecated'
+]);
 
 export class LoadingFooter extends React.Component<
   FooterPropType,
